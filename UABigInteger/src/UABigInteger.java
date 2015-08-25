@@ -94,6 +94,46 @@ public class UABigInteger {
 	public void setIsGreaterThanOrEqualTo(Boolean isGreaterThanOrEqualTo) {
 		this.isGreaterThanOrEqualTo = isGreaterThanOrEqualTo;
 	}
+	public void input(int[] input) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void add(UABigInteger other) {
+		// TODO Auto-generated method stub
+		
+	}
+	public String output() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public boolean isEqualTo(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return  false;
+	}
+	public boolean isNotEqualTo(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return  false;
+	}
+	public boolean isLessThan(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return  false;
+	}
+	public boolean isGreaterThan(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return false ;
+	}
+	public boolean isLessThanOrEqualTo(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public boolean isGreaterThanOrEqualTo(UABigInteger other) {
+		// TODO Auto-generated method stub
+		return  false;
+	}
+	public void subtract(UABigInteger other) {
+		// TODO Auto-generated method stub
+
+	}
 
 
 	
