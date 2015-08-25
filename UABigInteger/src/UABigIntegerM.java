@@ -9,8 +9,8 @@ public class UABigIntegerM
             UABigInteger int_one = new UABigInteger();
             UABigInteger int_two = new UABigInteger();
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,0,0,0,1,1,1,0,0,0,2,2,2});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,0,0,0,1,1,1,0,0,0,2,2,2});
 
             111222333444555
             111000111000222
@@ -20,8 +20,8 @@ public class UABigIntegerM
             // Like this:
             System.out.println("222222444444777");
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,0,0,0,1,1,1,0,0,0,5,5,5});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,0,0,0,1,1,1,0,0,0,5,5,5});
 
             System.out.println();
 
@@ -30,22 +30,22 @@ public class UABigIntegerM
             System.out.println(int_one.output());
             System.out.println("222222444445109");
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
 
             System.out.println(int_one.output() + " = " + int_two.output());
             System.out.println("int_one = int_two", int_one.isEqualTo(int_two));
             System.out.println();
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,1});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,1});
 
             System.out.println(int_one.output() + " != " + int_two.output());
             System.out.println("int_one != int_two", int_one.isNotEqualTo(int_two));
             System.out.println();
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,1});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,1});
 
             System.out.println(int_one.output() + " < " + int_two.output());
             System.out.println("int_one < int_two", int_one.isLessThan(int_two));
@@ -79,8 +79,8 @@ public class UABigIntegerM
             System.out.println("int_two > int_one", int_two.isGreaterThanOrEqualTo(int_one));
             System.out.println();
 
-            int_one.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
-            int_two.input({1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_one.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
+            int_two.input(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5,5});
             System.out.println(int_two.output() + " - " + int_one.output());
             System.out.println("int_two - int_one = ", int_two.subtract(int_one));
             System.out.println("Should be 0!");
