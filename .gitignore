@@ -17,10 +17,11 @@ hs_err_pid*
 
 # OSX
 # =========================
-
+.metadata
 .DS_Store
 .AppleDouble
 .LSOverride
+.settings
 
 # Thumbnails
 ._*
@@ -57,3 +58,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+.metadata/.lock
+*.log
+.metadata/.plugins/org.eclipse.core.resources/.history/10/80da1c3c934a00151f22ad7d25da3f55
+.metadata/.plugins/org.eclipse.core.resources/.history/33/40808329934a00151f22ad7d25da3f55
+.metadata/.plugins/org.eclipse.core.resources/.history/52/f0b35dc8634a00151f22ad7d25da3f55
